@@ -1,6 +1,8 @@
 package com.skyrstudios.vibraniumtechnologies;
 
 import com.mojang.logging.LogUtils;
+import com.skyrstudios.vibraniumtechnologies.block.ModBlocks;
+import com.skyrstudios.vibraniumtechnologies.item.ModItems;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -18,6 +20,9 @@ public class VibraniumTechnologies {
     private static final Logger LOGGER = LogUtils.getLogger();
     public VibraniumTechnologies() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

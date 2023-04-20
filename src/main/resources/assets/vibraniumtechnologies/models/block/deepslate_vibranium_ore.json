@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "vibraniumtechnologies:block/deepslate_vibranium_ore"
+  }
+}

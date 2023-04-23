@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vibraniumtechnologies:vibranium_ingot"
+    }
+  ],
+  "result": {
+    "item": "vibraniumtechnologies:vibranium_nugget",
+    "count": 9
+  }
+}

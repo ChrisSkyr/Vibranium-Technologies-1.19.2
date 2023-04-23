@@ -1,8 +1,10 @@
 package com.skyrstudios.vibraniumtechnologies.item;
 
 import com.skyrstudios.vibraniumtechnologies.VibraniumTechnologies;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.Item;
+import com.skyrstudios.vibraniumtechnologies.item.custom.FuelItem;
+import com.skyrstudios.vibraniumtechnologies.item.custom.armors.VibraniumArmorItem;
+import net.minecraft.world.entity.EquipmentSlot;
+import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,8 +24,33 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
     public static RegistryObject<Item> COAL_NUGGET = ITEMS.register("coal_nugget",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+            () -> new FuelItem(new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB), 177));
 
+    public static  RegistryObject<PickaxeItem> VIBRANIUM_PICKAXE = ITEMS.register("vibranium_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.VIBRANIUM, -3, -2.8f, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    public static  RegistryObject<SwordItem> VIBRANIUM_SWORD = ITEMS.register("vibranium_sword",
+            () -> new SwordItem(ModToolTiers.VIBRANIUM, -1, -2.4f, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    public static  RegistryObject<AxeItem> VIBRANIUM_AXE = ITEMS.register("vibranium_axe",
+            () -> new AxeItem(ModToolTiers.VIBRANIUM, 4, -3, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    public static  RegistryObject<ShovelItem> VIBRANIUM_SHOVEL = ITEMS.register("vibranium_shovel",
+            () -> new ShovelItem(ModToolTiers.VIBRANIUM, -2.5f, -3, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    public static  RegistryObject<HoeItem> VIBRANIUM_HOE = ITEMS.register("vibranium_hoe",
+            () -> new HoeItem(ModToolTiers.VIBRANIUM, -10, 2, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+
+    //                                   --ARMOR--
+
+    public static RegistryObject<Item> VIBRANIUM_HELMET = ITEMS.register("vibranium_helmet",
+            () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> VIBRANIUM_CHESTPLATE = ITEMS.register("vibranium_chestplate",
+            () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> VIBRANIUM_LEGGINGS = ITEMS.register("vibranium_leggings",
+            () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> VIBRANIUM_BOOTS = ITEMS.register("vibranium_boots",
+            () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
 
     public static void register(IEventBus eventBus){

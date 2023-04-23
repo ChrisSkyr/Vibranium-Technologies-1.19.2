@@ -3,9 +3,30 @@
   "item.vibraniumtechnologies.vibranium_ingot": "Vibranium Ingot",
   "item.vibraniumtechnologies.vibranium_nugget": "Vibranium Nugget",
   "item.vibraniumtechnologies.coal_nugget": "Coal Nugget",
+  "item.vibraniumtechnologies.vibranium_dust": "Vibranium Dust",
 
+  "item.vibraniumtechnologies.vibranium_sword": "Vibranium Sword",
+  "item.vibraniumtechnologies.vibranium_pickaxe": "Vibranium Pickaxe",
+  "item.vibraniumtechnologies.vibranium_axe": "Vibranium Axe",
+  "item.vibraniumtechnologies.vibranium_shovel": "Vibranium Shovel",
+  "item.vibraniumtechnologies.vibranium_hoe": "Vibranium Hoe",
+
+  "item.vibraniumtechnologies.vibranium_helmet": "Vibranium Helmet",
+  "item.vibraniumtechnologies.vibranium_chestplate": "Vibranium Chestlate",
+  "item.vibraniumtechnologies.vibranium_leggings": "Vibranium Leggings",
+  "item.vibraniumtechnologies.vibranium_boots": "Vibranium Boots",
+
+  "block.vibraniumtechnologies.vibranium_block": "Vibranium Block",
   "block.vibraniumtechnologies.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
+  "block.vibraniumtechnologies.raw_vibranium_block": "Raw Vibranium Block",
 
+  "itemGroup.vibraniumtechnologiestab": "Vibranium Technologies",
 
-  "itemGroup.vibraniumtechnologiestab": "Vibranium Technologies"
+  "advancements.vibraniumtechnologies.main.root": "Vibranium Technologies",
+  "advancements.vibraniumtechnologies.main.root.desc": "The Power is stored in the Vibranium!",
+  "advancements.vibraniumtechnologies.main.obtain_vibranium_pickaxe.tittle": "The fastest Pickaxe",
+  "advancements.vibraniumtechnologies.main.obtain_vibranium_pickaxe.desc": "Craft a Vibranium Pickaxe"
 }
+
+
+

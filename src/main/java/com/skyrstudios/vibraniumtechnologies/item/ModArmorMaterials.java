@@ -13,7 +13,20 @@ import java.util.function.Supplier;
 
 public enum ModArmorMaterials implements ArmorMaterial {
     VIBRANIUM("vibranium", 50, new int[]{4, 7, 9, 4}, 24, SoundEvents.ARMOR_EQUIP_NETHERITE,
-            4.5F, 0.15F, () -> {return Ingredient.of(ModItems.VIBRANIUM_INGOT.get()); });
+            4.5F, 0.15F, () -> {return Ingredient.of(ModItems.VIBRANIUM_INGOT.get());
+    }),
+    GILDED_VIBRANIUM("gilded_vibranium", 50, new int[]{4, 7, 9, 4}, 24, SoundEvents.ARMOR_EQUIP_NETHERITE,
+            4.5F, 0.15F, () -> {return Ingredient.of(ModItems.VIBRANIUM_INGOT.get());
+    }),
+    GILDED_DIAMOND("gilded_diamond", 33, new int[]{3, 6, 8, 3}, 10, SoundEvents.ARMOR_EQUIP_DIAMOND, 2.0F, 0.0F, () -> {
+        return Ingredient.of(Items.DIAMOND);
+    }),
+    GILDED_IRON("gilded_iron", 15, new int[]{2, 5, 6, 2}, 9, SoundEvents.ARMOR_EQUIP_IRON, 0.0F, 0.0F, () -> {
+        return Ingredient.of(Items.IRON_INGOT);
+    }),
+    GILDED_NETHERITE("gilded_netherite", 37, new int[]{3, 6, 8, 3}, 15, SoundEvents.ARMOR_EQUIP_NETHERITE, 3.0F, 0.1F, () -> {
+        return Ingredient.of(Items.NETHERITE_INGOT);
+    });
 
     private static final int[] HEALTH_PER_SLOT = new int[]{13, 15, 16, 11};
     private final String name;

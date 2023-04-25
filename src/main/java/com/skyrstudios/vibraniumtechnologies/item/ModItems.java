@@ -2,6 +2,8 @@ package com.skyrstudios.vibraniumtechnologies.item;
 
 import com.skyrstudios.vibraniumtechnologies.VibraniumTechnologies;
 import com.skyrstudios.vibraniumtechnologies.item.custom.FuelItem;
+import com.skyrstudios.vibraniumtechnologies.item.custom.armors.GildedArmorItem;
+import com.skyrstudios.vibraniumtechnologies.item.custom.armors.GildedVibraniumArmorItem;
 import com.skyrstudios.vibraniumtechnologies.item.custom.armors.VibraniumArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.item.*;
@@ -43,6 +45,7 @@ public class ModItems {
 
     //                                   --ARMOR--
 
+    //Vibranium Armor
     public static RegistryObject<Item> VIBRANIUM_HELMET = ITEMS.register("vibranium_helmet",
             () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
     public static RegistryObject<Item> VIBRANIUM_CHESTPLATE = ITEMS.register("vibranium_chestplate",
@@ -51,7 +54,42 @@ public class ModItems {
             () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
     public static RegistryObject<Item> VIBRANIUM_BOOTS = ITEMS.register("vibranium_boots",
             () -> new VibraniumArmorItem(ModArmorMaterials.VIBRANIUM, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
-
+    //Gilded Vibranium Armor
+    public static RegistryObject<Item> GILDED_VIBRANIUM_HELMET = ITEMS.register("gilded_vibranium_helmet",
+            () -> new GildedVibraniumArmorItem(ModArmorMaterials.GILDED_VIBRANIUM, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_VIBRANIUM_CHESTPLATE = ITEMS.register("gilded_vibranium_chestplate",
+            () -> new GildedVibraniumArmorItem(ModArmorMaterials.GILDED_VIBRANIUM, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_VIBRANIUM_LEGGINGS = ITEMS.register("gilded_vibranium_leggings",
+            () -> new GildedVibraniumArmorItem(ModArmorMaterials.GILDED_VIBRANIUM, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_VIBRANIUM_BOOTS = ITEMS.register("gilded_vibranium_boots",
+            () -> new GildedVibraniumArmorItem(ModArmorMaterials.GILDED_VIBRANIUM, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    //Gilded Diamond Armor
+    public static RegistryObject<Item> GILDED_DIAMOND_HELMET = ITEMS.register("gilded_diamond_helmet",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_DIAMOND, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_DIAMOND_CHESTPLATE = ITEMS.register("gilded_diamond_chestplate",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_DIAMOND, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_DIAMOND_LEGGINGS = ITEMS.register("gilded_diamond_leggings",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_DIAMOND, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_DIAMOND_BOOTS = ITEMS.register("gilded_diamond_boots",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_DIAMOND, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    //Gilded Iron Armor
+    public static RegistryObject<Item> GILDED_IRON_HELMET = ITEMS.register("gilded_iron_helmet",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_IRON, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_IRON_CHESTPLATE = ITEMS.register("gilded_iron_chestplate",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_IRON, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_IRON_LEGGINGS = ITEMS.register("gilded_iron_leggings",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_IRON, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_IRON_BOOTS = ITEMS.register("gilded_iron_boots",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_IRON, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    //Gilded Netherite Armor
+    public static RegistryObject<Item> GILDED_NETHERITE_HELMET = ITEMS.register("gilded_netherite_helmet",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_NETHERITE, EquipmentSlot.HEAD, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_NETHERITE_CHESTPLATE = ITEMS.register("gilded_netherite_chestplate",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_NETHERITE, EquipmentSlot.CHEST, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_NETHERITE_LEGGINGS = ITEMS.register("gilded_netherite_leggings",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_NETHERITE, EquipmentSlot.LEGS, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
+    public static RegistryObject<Item> GILDED_NETHERITE_BOOTS = ITEMS.register("gilded_netherite_boots",
+            () -> new GildedArmorItem(ModArmorMaterials.GILDED_NETHERITE, EquipmentSlot.FEET, new Item.Properties().tab(ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB)));
 
     public static void register(IEventBus eventBus){
         ITEMS.register(eventBus);

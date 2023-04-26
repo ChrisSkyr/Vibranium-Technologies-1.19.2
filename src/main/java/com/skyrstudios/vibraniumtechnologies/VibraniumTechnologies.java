@@ -3,6 +3,8 @@ package com.skyrstudios.vibraniumtechnologies;
 import com.mojang.logging.LogUtils;
 import com.skyrstudios.vibraniumtechnologies.block.ModBlocks;
 import com.skyrstudios.vibraniumtechnologies.item.ModItems;
+import com.skyrstudios.vibraniumtechnologies.world.feature.ModConfiguredFeatures;
+import com.skyrstudios.vibraniumtechnologies.world.feature.ModPlacedFeatures;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -23,6 +25,8 @@ public class VibraniumTechnologies {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        ModConfiguredFeatures.register(modEventBus);
+        ModPlacedFeatures.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

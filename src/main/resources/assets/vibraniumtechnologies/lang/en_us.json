@@ -3,9 +3,50 @@
   "item.vibraniumtechnologies.vibranium_ingot": "Vibranium Ingot",
   "item.vibraniumtechnologies.vibranium_nugget": "Vibranium Nugget",
   "item.vibraniumtechnologies.coal_nugget": "Coal Nugget",
+  "item.vibraniumtechnologies.vibranium_dust": "Vibranium Dust",
 
+  "item.vibraniumtechnologies.vibranium_sword": "Vibranium Sword",
+  "item.vibraniumtechnologies.vibranium_pickaxe": "Vibranium Pickaxe",
+  "item.vibraniumtechnologies.vibranium_axe": "Vibranium Axe",
+  "item.vibraniumtechnologies.vibranium_shovel": "Vibranium Shovel",
+  "item.vibraniumtechnologies.vibranium_hoe": "Vibranium Hoe",
+
+  "item.vibraniumtechnologies.vibranium_helmet": "Vibranium Helmet",
+  "item.vibraniumtechnologies.vibranium_chestplate": "Vibranium Chestlate",
+  "item.vibraniumtechnologies.vibranium_leggings": "Vibranium Leggings",
+  "item.vibraniumtechnologies.vibranium_boots": "Vibranium Boots",
+
+  "item.vibraniumtechnologies.gilded_vibranium_helmet": "Gilded Vibranium Helmet",
+  "item.vibraniumtechnologies.gilded_vibranium_chestplate": "Gilded Vibranium ChestPlate",
+  "item.vibraniumtechnologies.gilded_vibranium_leggings": "Gilded Vibranium Leggings",
+  "item.vibraniumtechnologies.gilded_vibranium_boots": "Gilded Vibranium Boots",
+
+  "item.vibraniumtechnologies.gilded_diamond_helmet": "Gilded Diamond Helmet",
+  "item.vibraniumtechnologies.gilded_diamond_chestplate": "Gilded Diamond ChestPlate",
+  "item.vibraniumtechnologies.gilded_diamond_leggings": "Gilded Diamond Leggings",
+  "item.vibraniumtechnologies.gilded_diamond_boots": "Gilded Diamond Boots",
+
+  "item.vibraniumtechnologies.gilded_netherite_helmet": "Gilded Netherite Helmet",
+  "item.vibraniumtechnologies.gilded_netherite_chestplate": "Gilded Netherite Chestplate",
+  "item.vibraniumtechnologies.gilded_netherite_leggings": "Gilded Netherite Leggings",
+  "item.vibraniumtechnologies.gilded_netherite_boots": "Gilded Netherite Boots",
+
+  "item.vibraniumtechnologies.gilded_iron_helmet": "Gilded Iron Helmet",
+  "item.vibraniumtechnologies.gilded_iron_chestplate": "Gilded Iron Chestplate",
+  "item.vibraniumtechnologies.gilded_iron_leggings": "Gilded Iron Leggings",
+  "item.vibraniumtechnologies.gilded_iron_boots": "Gilded Iron Boots",
+
+  "block.vibraniumtechnologies.vibranium_block": "Vibranium Block",
   "block.vibraniumtechnologies.deepslate_vibranium_ore": "Deepslate Vibranium Ore",
+  "block.vibraniumtechnologies.raw_vibranium_block": "Raw Vibranium Block",
 
+  "itemGroup.vibraniumtechnologiestab": "Vibranium Technologies",
 
-  "itemGroup.vibraniumtechnologiestab": "Vibranium Technologies"
+  "advancements.vibraniumtechnologies.main.root": "Vibranium Technologies",
+  "advancements.vibraniumtechnologies.main.root.desc": "The Power is stored in the Vibranium!",
+  "advancements.vibraniumtechnologies.main.obtain_vibranium_pickaxe.tittle": "The fastest Pickaxe",
+  "advancements.vibraniumtechnologies.main.obtain_vibranium_pickaxe.desc": "Craft a Vibranium Pickaxe"
 }
+
+
+

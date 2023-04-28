@@ -26,6 +26,14 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB);
 
+    public static final RegistryObject<Block> RAW_VIBRANIUM_BLOXCK = registerBlock("raw_vibranium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB);
+
+    public static final RegistryObject<Block> VIBRANIUM_BLOCK = registerBlock("vibranium_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.VIBRANIUM_TECHNOLOGIES_TAB);
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
